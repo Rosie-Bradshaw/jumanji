@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+nav form {
+    border: 1px solid #E38008;
+    border-radius: 35px;
+    justify-content: center;
+    align-content: center;
+    max-height: 4em;
+}
+
+input {
+    border: none;
+}
+
+nav .green-button {
+    background-color: #202e0a;
+    color: white;
+    display: flex;
+    border: none;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 0 6em 0 auto;
+    gap: 1em;
+    max-height: 4em;
+}
+
+nav img {
+    max-width: 3em;
+    max-height: 3em;
+}
+
+nav a {
+    align-content: center;
+}
+
+.logo {
+    min-width: 13em;
+    min-height: 5em;
+}
