@@ -6,21 +6,28 @@
 nav {
     display: flex;
     width: 100%;
+    align-items: center;
+    justify-items: center;
+    padding: 0 1em 0 0;
 }
 
 nav form {
+    display: flex;
     border: 1px solid #E38008;
     border-radius: 35px;
-    justify-content: center;
-    align-content: center;
-    max-height: 4em;
+    justify-items: center;
+    align-items: center;
+    min-width: 25em;
+    padding: auto;
+    margin: 0 auto 0 2em;
 }
 
 input {
     border: none;
+    padding: 1em
 }
 
-nav .green-button {
+.green-button {
     background-color: #202e0a;
     color: white;
     display: flex;
@@ -28,22 +35,25 @@ nav .green-button {
     border-radius: 35px;
     align-items: center;
     justify-content: center;
-    padding: 1em;
-    margin: 0 6em 0 auto;
-    gap: 1em;
+    padding-left: 2em;
+    margin: 0 6em 0 2em;
     max-height: 4em;
+    min-width: 15em;
 }
 
 nav img {
     max-width: 3em;
     max-height: 3em;
+    margin-left: 2em;
 }
 
 nav a {
-    align-content: center;
+    align-items: center;
+    margin:
 }
 
 .logo {
     min-width: 13em;
     min-height: 5em;
+    margin-left: 0;
 }
