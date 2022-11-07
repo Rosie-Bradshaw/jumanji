@@ -58,3 +58,22 @@ nav a {
     min-height: 5em;
     margin-left: 0;
 }
+footer{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #202e0a;
+}
+.foot{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    
+}
+.footer_images{
+    display: flex;
+    flex-direction: column;
+}
