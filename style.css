@@ -17,6 +17,12 @@ nav {
     padding: 0 1em 0 0;
 }
 
+.icon {
+    width: 2em;
+    height: 2em;
+    margin-left: 2em;
+}
+
 nav form {
     display: flex;
     border: 1px solid #E38008;
@@ -24,13 +30,9 @@ nav form {
     justify-items: center;
     align-items: center;
     min-width: 25em;
-    padding: auto;
-    margin: 0 auto 0 2em;
-}
-
-input {
-    border: none;
-    padding: 1em;
+    padding: 0.5em;
+    margin: auto;
+    justify-content: ;
 }
 
 .green-button {
@@ -41,16 +43,10 @@ input {
     border-radius: 35px;
     align-items: center;
     justify-content: center;
-    padding-left: 2em;
+    padding: 0.5em;
     margin: 0 6em 0 2em;
     max-height: 4em;
     min-width: 15em;
-}
-
-nav img {
-    max-width: 3em;
-    max-height: 3em;
-    margin-left: 2em;
 }
 
 nav a {
