@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0; 
+    border:0;
+    line-height: 1;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    background-color: transparent;
+}
+
+nav {
+    display: flex;
+    flex-direction: space-between;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em 0 0;
+    width: 100vw;
+    margin: auto;
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid #E38008;
+    border-radius: 35px;
+    justify-items: center;
+    align-items: center;
+    padding: 0.5em;
+    margin: 1em auto;
+    gap: 2em;
+    max-width: 22em;
+    display:none;
+    overflow: hidden;
+}
+
+nav .search-bar {
+    display:flex;
+}
+
+nav .icon, .search-bar img {
+    margin-left: 2em;
+}
+input {
+    padding:0;
+    background-color: transparent;
+}
+
+.green-button {
+    background-color: #202e0a;
+    color: white;
+    display: flex;
+    border: none;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    margin: auto 6em auto 2em;
+    max-height: 4em;
+    min-width: 15em;
+    transition: 300ms;
+}
+
+.green-button:hover {
+    background-color: #E38008;
+}
+
+nav a {
+    align-items: center;
+}
+
+.logo {
+    min-width: 13em;
+    min-height: 5em;
+    margin-left: 0;
+}
+footer{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #202e0a;
+}
+.foot{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    
+}
+.footer_images{
+    display: flex;
+    flex-direction: column;
+}
+
+
+main {
+    background-image: url("/images/hero-img.png");
+    background-size: cover;
+    width: 95vw;
+    margin: auto;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    padding: 2em;
+    min-height: 40vh;
+    display: flex;
+}
+
+h1 {
+    color:white;
+    font-size: 4em;
+    max-width: 50vw;
+    line-height: 1.25em;
+    margin: auto 0;
+}
+
+.orange-button {
+    background-color: #f4cfa1;
+    font-weight: bold;
+    color: #202e0a;
+    display: flex;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    margin: 1em auto;
+    max-height: 4em;
+    min-width: auto;
+    max-width: 16em;
+    transition: 300ms;
+    gap: 1em;
+}
+
+.orange-button:hover {
+    background-color: #E5AE08;
+}
+
+@media only screen and (max-width: 1130px) {
+    nav .search-bar {
+        display:none;
+    }
+    .search-bar {
+        display:flex;
+    }
+    h1 {
+        font-size: 3em;
+        max-width: 70vw;
+    }
+    main {
+        min-height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav .green-button, nav a:nth-child(5) {
+        display:none;
+    }
+    h1 {
+        font-size: 2em;
+        max-width: 80vw;
+    }
+    main {
+        min-height: 20vh;
+    }
+    }
+    
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    background-color: #FDF8F1;
+    color: #202E0A;
+
+
+}
+.grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 20% 1fr 1fr 1fr 1fr 1fr 20%; 
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, Verdana, Tahoma, sans-serif;
+    height: 680px;
+
+}
+
+span{
+display: flex;}
+
+article{
+    background-color: #202e0a0e;
+    height: 331px;
+    width: 276px;
+    border-radius: 9px;
+    transition: .2s;
+    position: relative;
+    
+
+}
+
+
+
+article:hover{
+    height: 335px;
+}
+
+article>li{
+    margin-left: 30px;
+    margin-top: 15px;
+    font: weight 0,5px;
+    font-style: oblique;
+}
+
+article>footer>h6{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 15px;
+
+}
+
+article>footer>p{
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+article>img{
+    height: 197px;
+    width: 276px;
+    transform: translatey(15px);
+}
+article>footer{
+    transform: translatey(10px);
+}
+
+.card1 {
+    grid-column-start: 2;
+
+}
+
