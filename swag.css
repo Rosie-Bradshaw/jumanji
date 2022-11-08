@@ -1,0 +1,39 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    vertical-align: baseline;
+	font-family: Lato;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 1em;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 1fr 3fr 1fr 1fr;
+    margin-top: 2%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 60vw;
+}
+
+main *{
+    border: solid 1px red;
+}
+
+main > h1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+main label{
+    grid-column-start: 1;
+}
+
+main input[text]{
+    grid-column-start: 2;
+}
