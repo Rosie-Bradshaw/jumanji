@@ -87,18 +87,19 @@ main {
     background-size: cover;
     width: 95vw;
     margin: auto;
-    max-height: 33vh;
     background-repeat: no-repeat;
     border-radius: 35px;
     padding: 2em;
+    min-height: 40vh;
+    display: flex;
 }
 
 h1 {
     color:white;
     font-size: 4em;
-    max-width: 750px;
+    max-width: 50vw;
     line-height: 1.25em;
-    padding: 0.5em 0;
+    margin: auto 0;
 }
 
 .orange-button {
@@ -130,7 +131,11 @@ h1 {
         display:flex;
     }
     h1 {
-        font-size: 3em;;
+        font-size: 3em;
+        max-width: 70vw;
+    }
+    main {
+        min-height: 30vh;
     }
 }
 
@@ -139,7 +144,11 @@ h1 {
         display:none;
     }
     h1 {
-        font-size: 2em;;
+        font-size: 2em;
+        max-width: 80vw;
+    }
+    main {
+        min-height: 20vh;
     }
     }
     
