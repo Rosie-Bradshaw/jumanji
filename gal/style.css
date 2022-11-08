@@ -23,8 +23,8 @@ section{
 }
 
 span{
-    grid-row-start: ;
-}
+display: flex;}
+
 article{
     background-color: #202e0a0e;
     height: 331px;
@@ -74,18 +74,5 @@ article>footer{
 .card1 {
     grid-column-start: 2;
 
-}
-
-.card2 {
-    
-}
-
-
-.card3 {
-    
-}
-
-.card4 {
-    
 }
 
