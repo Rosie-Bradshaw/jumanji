@@ -9,52 +9,13 @@
     font-family: 'Inter', sans-serif;
 }
 
-nav {
-    display: flex;
-    width: 100vw;
-    align-items: center;
-    justify-items: center;
-    padding: 0 1em 0 0;
+section {
+    display: grid
 }
 
-.icon {
-    width: 2em;
-    height: 2em;
-    margin-left: 2em;
-}
 
-nav form {
-    display: flex;
-    border: 1px solid #E38008;
-    border-radius: 35px;
-    justify-items: center;
-    align-items: center;
-    min-width: 25em;
-    padding: 0.5em;
-    margin: auto;
-    /* justify-content: ; */
-}
-
-.green-button {
-    background-color: #202e0a;
-    color: white;
-    display: flex;
-    border: none;
-    border-radius: 35px;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5em;
-    margin: 0 6em 0 2em;
-    max-height: 4em;
-    min-width: 15em;
-}
-
-nav a {
-    align-items: center;
-}
-
-.logo {
-    min-width: 13em;
-    min-height: 5em;
-    margin-left: 0;
+h1 {
+    margin: 30px;
+    color: #202e0a;
+    font-size: 40px;
 }
