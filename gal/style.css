@@ -3,18 +3,28 @@
     padding: 0;
     margin: 0;
 }
+
 section{
     background-color: #FDF8F1;
-    display: flex;
+    color: #202E0A;
+
+
+}
+.grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 20% 1fr 1fr 1fr 1fr 1fr 20%; 
+    grid-gap: 20px;
     justify-content: center;
     align-items: center;
     font-family: Inter, Verdana, Tahoma, sans-serif;
-    color: #202E0A;
     height: 680px;
 
 }
 
-
+span{
+    grid-row-start: ;
+}
 article{
     background-color: #202e0a0e;
     height: 331px;
@@ -22,8 +32,12 @@ article{
     border-radius: 9px;
     transition: .2s;
     position: relative;
+    
 
 }
+
+
+
 article:hover{
     height: 335px;
 }
@@ -55,5 +69,23 @@ article>img{
 }
 article>footer{
     transform: translatey(10px);
+}
+
+.card1 {
+    grid-column-start: 2;
+
+}
+
+.card2 {
+    
+}
+
+
+.card3 {
+    
+}
+
+.card4 {
+    
 }
 
