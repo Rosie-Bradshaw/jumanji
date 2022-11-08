@@ -9,8 +9,8 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     font-size: 1em;
+    background-color: transparent;
 }
-
 
 nav {
     display: flex;
@@ -34,7 +34,7 @@ nav {
     justify-items: center;
     align-items: center;
     padding: 0.5em;
-    margin: 1em;
+    margin: 1em auto;
     gap: 2em;
     max-width: 22em;
     display:none;
@@ -65,6 +65,11 @@ input {
     margin: auto 6em auto 2em;
     max-height: 4em;
     min-width: 15em;
+    transition: 300ms;
+}
+
+.green-button:hover {
+    background-color: #E38008;
 }
 
 nav a {
@@ -90,8 +95,10 @@ main {
 
 h1 {
     color:white;
-    font-size: 5em;
-    max-width: 700px;
+    font-size: 4em;
+    max-width: 750px;
+    line-height: 1.25em;
+    padding: 0.5em 0;
 }
 
 .orange-button {
@@ -103,12 +110,16 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 0.5em;
-    margin: auto;
+    margin: 1em auto;
     max-height: 4em;
     min-width: auto;
     max-width: 16em;
     transition: 300ms;
     gap: 1em;
+}
+
+.orange-button:hover {
+    background-color: #E5AE08;
 }
 
 @media only screen and (max-width: 1130px) {
@@ -119,7 +130,7 @@ h1 {
         display:flex;
     }
     h1 {
-        font-size: 4em;;
+        font-size: 3em;;
     }
 }
 
@@ -128,7 +139,8 @@ h1 {
         display:none;
     }
     h1 {
-        font-size: 3em;;
+        font-size: 2em;;
     }
     }
+    
 }
