@@ -13,8 +13,13 @@
 	margin: 0;
 }
 
+body{
+    background-color: #ddccb5;
+}
+
 main{
-    display: grid;
+    display: flex;
+    flex-flow: column nowrap;
     margin-top: 2%;
     margin-left: 20vw;
     margin-right: 20vw;
@@ -22,20 +27,76 @@ main{
 }
 
 main *{
+    border: 1px solid blue;
 }
 
-main > h1{
+main > h2{
     text-align: center;
     align-self: center;
     font-size: 3rem;
 }
 
+main form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
+}
+
 main label{
     grid-column-start: 1;
+    text-align: center;
+    align-self: center;
+}
+
+main input{
+    display: flex;
+    border: 1px solid #E38008;
+    border-radius: 35px;
+    justify-items: center;
+    align-items: center;
+    padding: 0.5em;
+    margin: 1em auto;
+    gap: 2em;
+    max-width: 22em;
+    display:none;
+    overflow: hidden;
 }
 
 main input[text]{
     grid-column-start: 2;
+}
+
+main > form > p{
+    grid-column-start: 2;
+}
+
+.text-input{
+    display: flex;
+    border: 1px solid #E38008;
+    border-radius: 15px;
+    justify-items: center;
+    align-items: center;
+    padding: 0.5em;
+    margin: 1em auto;
+    gap: 2em;
+    overflow: hidden;
+    max-height: 2em;
+    max-width: 40vw;
+    min-width: 20vw;
+}
+
+.text-input[placeholder="Escribe tu consulta"]{
+    border-radius: 15px;
+    max-width: 40vw;
+    min-width: 20vw;
+    min-height: 2em;
+    max-height: 10em;
+    
+}
+
+label[for="message"]{
+    align-self: start;
+    transform:translateY(1.5em)
 }
 
 footer{
