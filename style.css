@@ -85,7 +85,9 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap:wrap;
     color: #202e0a;
+    margin: 2em;
 }
 .foot{
     display:flex;

@@ -19,7 +19,7 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 20%;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
   grid-gap: 20px;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,7 @@
 section {
   background-color: #fdf8f1;
   color: #202e0a;
-  height: 680px;
+  padding-bottom: 3em;
 }
 
 span {
@@ -88,15 +88,22 @@ article > img {
 article > div {
   transform: translatey(10px);
 }
+a:link{
+    text-decoration: none;
+    color: #202e0a;
+}
+a:visited{
+    text-decoration:none;
+    color: #202e0a;
+}
 
 @media only screen and (max-width: 1130px) {
   .hero {
     min-height: 30vh;
   }
-  .grid {
-    background-color: yellow;
-    grid-template-columns: 20% 1fr 1fr 20%;
-    grid-template-rows: 1fr 1fr;
+  /*.grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;*/
   }
 }
 
@@ -104,9 +111,8 @@ article > div {
   .hero {
     min-height: 20vh;
   }
-  .grid {
-    background-color: red;
-    grid-template-columns: 20% 1fr 1fr 20%;
+  /*.grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr%;
     grid-template-rows: 1fr 1fr;
   }
-}
+}*/
