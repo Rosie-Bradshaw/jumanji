@@ -22,7 +22,6 @@ main{
 }
 
 main *{
-    border: solid 1px red;
 }
 
 main > h1{
@@ -52,7 +51,6 @@ footer *{
 footer > nav{
     display: flex;
     flex-flow: column nowrap;
-    border: 1px green solid;
 }
 
 footer img{

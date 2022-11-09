@@ -82,7 +82,6 @@ nav a {
     margin-left: 0;
 }
 footer{
-    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -99,27 +98,6 @@ footer{
 .footer_images{
     display: flex;
     flex-direction: column;
-}
-
-
-main {
-    background-image: url("/images/hero-img.png");
-    background-size: cover;
-    width: 95vw;
-    margin: auto;
-    background-repeat: no-repeat;
-    border-radius: 35px;
-    padding: 2em;
-    min-height: 40vh;
-    display: flex;
-}
-
-h1 {
-    color:white;
-    font-size: 4em;
-    max-width: 50vw;
-    line-height: 1.25em;
-    margin: auto 0;
 }
 
 .orange-button {
@@ -154,9 +132,6 @@ h1 {
         font-size: 3em;
         max-width: 70vw;
     }
-    main {
-        min-height: 30vh;
-    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -167,89 +142,5 @@ h1 {
         font-size: 2em;
         max-width: 80vw;
     }
-    main {
-        min-height: 20vh;
-    }
-    }
-    
-}
-
-
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-section{
-    background-color: #FDF8F1;
-    color: #202E0A;
-
-
-}
-.grid{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 20% 1fr 1fr 1fr 1fr 1fr 20%; 
-    grid-gap: 20px;
-    justify-content: center;
-    align-items: center;
-    font-family: Inter, Verdana, Tahoma, sans-serif;
-    height: 680px;
-
-}
-
-span{
-display: flex;}
-
-article{
-    background-color: #202e0a0e;
-    height: 331px;
-    width: 276px;
-    border-radius: 9px;
-    transition: .2s;
-    position: relative;
-    
-
-}
-
-
-
-article:hover{
-    height: 335px;
-}
-
-article>li{
-    margin-left: 30px;
-    margin-top: 15px;
-    font: weight 0,5px;
-    font-style: oblique;
-}
-
-article>footer>h6{
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px;
-    padding-left: 15px;
-
-}
-
-article>footer>p{
-    font-size: 22px;
-    padding-left: 15px;
-}
-
-article>img{
-    height: 197px;
-    width: 276px;
-    transform: translatey(15px);
-}
-article>footer{
-    transform: translatey(10px);
-}
-
-.card1 {
-    grid-column-start: 2;
-
 }
 
