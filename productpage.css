@@ -31,6 +31,7 @@ h1 {
 
 }
 .text{
+    grid-column-start: 3;
     margin-right: 100px;
     margin-left: 50px;
     text-align: justify;
