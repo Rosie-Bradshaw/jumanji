@@ -42,15 +42,14 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 100vw;
+    text-decoration: none;
+    color:#202e0a;
 }
-
-footer *{
+a:link{
     text-decoration: none;
 }
-
-footer > nav{
-    display: flex;
-    flex-flow: column nowrap;
+a:visited{
+    text-decoration:none;
 }
 
 footer img{
