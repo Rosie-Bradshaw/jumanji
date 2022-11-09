@@ -14,7 +14,7 @@
 }
 
 body{
-    background-color: #ddccb5;
+    background-color: #ffffff;
 }
 
 main{
@@ -27,7 +27,7 @@ main{
 }
 
 main *{
-    border: 1px solid blue;
+    border: 0px solid blue;
 }
 
 main > h2{
@@ -44,11 +44,12 @@ main form{
 
 main label{
     grid-column-start: 1;
-    text-align: center;
+    text-align: end;
     align-self: center;
+    transform:translateY(-0.5em)
 }
 
-main input{
+main input[text]{
     display: flex;
     border: 1px solid #E38008;
     border-radius: 35px;
@@ -62,12 +63,12 @@ main input{
     overflow: hidden;
 }
 
-main input[text]{
+main > form > p, main input[text], main a[type="submit"]{
     grid-column-start: 2;
 }
 
-main > form > p{
-    grid-column-start: 2;
+main a[type="submit"]{
+    min-width: 10em;
 }
 
 .text-input{
@@ -81,13 +82,13 @@ main > form > p{
     gap: 2em;
     overflow: hidden;
     max-height: 2em;
-    max-width: 40vw;
+    max-width: 39vw;
     min-width: 20vw;
 }
 
 .text-input[placeholder="Escribe tu consulta"]{
     border-radius: 15px;
-    max-width: 40vw;
+    max-width: 39vw;
     min-width: 20vw;
     min-height: 2em;
     max-height: 10em;
