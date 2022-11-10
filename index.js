@@ -1,1 +1,2 @@
-const API_URL = "https://api.whatsapp.com/send?text=hola"
+ import { WhatsAppAPI } from "https://esm.sh/whatsapp-api-js%22;
+ const Whatsapp = new WhatsAppAPI("whatsapp");

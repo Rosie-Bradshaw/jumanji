@@ -81,6 +81,11 @@ nav a {
     min-height: 5em;
     margin-left: 0;
 }
+
+.bottom-bar {
+    display: none;
+}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -130,19 +135,25 @@ footer{
     .search-bar {
         display:flex;
     }
-    h1 {
-        font-size: 3em;
-        max-width: 70vw;
-    }
 }
 
 @media only screen and (max-width: 800px) {
     nav .green-button, nav a:nth-child(5) {
         display:none;
     }
-    h1 {
-        font-size: 2em;
-        max-width: 80vw;
+
+    .bottom-bar {
+        display: flex;
+        background-color: #F6F7F5;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        z-index: 100;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        min-height: 45px;
+
     }
 }
 

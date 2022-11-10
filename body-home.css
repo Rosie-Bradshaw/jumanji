@@ -17,6 +17,39 @@
   line-height: 1.25em;
   margin: auto 0;
 }
+
+@media only screen and (max-width: 1130px) {
+    .hero{
+        min-height: 30vh;
+    }
+    .hero h1{
+        font-size: 3em;
+        max-width: 70vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .hero{
+        min-height: 20vh;
+    }
+    .hero h1{
+        font-size: 2em;
+        max-width: 80vw;
+}
+
+section{
+    background-color: #FDF8F1;
+    color: #202E0A;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 20% 1fr 1fr 1fr 1fr 1fr 20%; 
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, Verdana, Tahoma, sans-serif;
+    height: 680px;
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
