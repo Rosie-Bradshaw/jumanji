@@ -99,24 +99,3 @@ label[for="message"]{
     align-self: start;
     transform:translateY(1.5em)
 }
-
-footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 100vw;
-}
-
-footer *{
-    text-decoration: none;
-}
-
-footer > nav{
-    display: flex;
-    flex-flow: column nowrap;
-}
-
-footer img{
-    display: flex;
-    flex-direction: column;
-    max-height: 64px;
-}
