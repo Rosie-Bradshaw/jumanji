@@ -45,7 +45,27 @@ span {
   display: flex;
   align-items: center;
 }
+li{list-style: none;}
 
+article li::before {
+  content: "\2022";
+  color: #e5ae08;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.green-button{
+    height: 52px;
+    width: 288px;
+    margin: 0 auto;
+    align-items: center;
+    color: #fdf8f1;
+}
+
+section > .green-button {
+    margin-top: 3em;
+}
 article {
   background-color: #202e0a0e;
   height: 331px;
@@ -56,7 +76,7 @@ article {
 }
 
 article:hover {
-  height: 335px;
+background-color: #F4CFA1;
 }
 
 article > li {
@@ -67,9 +87,9 @@ article > li {
 }
 
 article > div > h6 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
-  padding: 10px;
+  padding: 15px;
   padding-left: 15px;
 }
 
@@ -90,10 +110,7 @@ a:link{
     text-decoration: none;
     color: #202e0a;
 }
-a:visited{
-    text-decoration:none;
-    color: #202e0a;
-}
+
 
 @media only screen and (max-width: 1130px) {
   .hero {
