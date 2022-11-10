@@ -27,9 +27,7 @@
   margin: 0 auto;
   justify-items: center;
 }
-.card1 {
- 
-}
+
 
 section {
   background-color: #fdf8f1;
@@ -105,14 +103,12 @@ a:visited{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;*/
   }
-}
 
 @media only screen and (max-width: 800px) {
   .hero {
     min-height: 20vh;
   }
+ }
   /*.grid {
     grid-template-columns: 1fr 1fr 1fr 1fr%;
     grid-template-rows: 1fr 1fr;
-  }
-}*/
