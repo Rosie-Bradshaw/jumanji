@@ -34,6 +34,8 @@ main > h2{
     text-align: center;
     align-self: center;
     font-size: 3rem;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 main form{
@@ -49,33 +51,35 @@ main label{
     transform:translateY(-0.5em)
 }
 
-main input[text]{
+main input, textarea{
     display: flex;
+    text-align: start;
+    align-self: flex-start; /* esto hace algo raro*/
     border: 1px solid #E38008;
     border-radius: 35px;
-    justify-items: center;
-    align-items: center;
     padding: 0.5em;
-    margin: 1em auto;
+    margin: 1em;
     gap: 2em;
-    max-width: 22em;
-    display:none;
-    overflow: hidden;
+    min-width: 39vw;
+    max-width: 39vw;
 }
 
 main > form > p, main input[text], main a[type="submit"]{
     grid-column-start: 2;
+    /* justify-self: center; */
 }
 
-
+main a[type="submit"]{
+    width: 12em;
+}
 
 .text-input[placeholder="Escribe tu consulta"]{
     border-radius: 15px;
     max-width: 39vw;
-    min-width: 20vw;
-    min-height: 2em;
-    max-height: 10em;
-    
+    min-width: 39vw;
+    min-height: 12em;
+    max-height: 12em;
+    resize: none;
 }
 
 label[for="message"]{
