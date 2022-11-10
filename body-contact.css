@@ -67,24 +67,7 @@ main > form > p, main input[text], main a[type="submit"]{
     grid-column-start: 2;
 }
 
-main a[type="submit"]{
-    min-width: 10em;
-}
 
-.text-input{
-    display: flex;
-    border: 1px solid #E38008;
-    border-radius: 15px;
-    justify-items: center;
-    align-items: center;
-    padding: 0.5em;
-    margin: 1em auto;
-    gap: 2em;
-    overflow: hidden;
-    max-height: 2em;
-    max-width: 39vw;
-    min-width: 20vw;
-}
 
 .text-input[placeholder="Escribe tu consulta"]{
     border-radius: 15px;

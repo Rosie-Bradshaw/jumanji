@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "whatsapp-api-js": "^0.8.0"
+  }
+}
