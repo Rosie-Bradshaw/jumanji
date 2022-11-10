@@ -153,6 +153,7 @@ footer{
         left: 0;
         width: 100%;
         min-height: 45px;
+        padding-top:1em;
 
     }
 }
