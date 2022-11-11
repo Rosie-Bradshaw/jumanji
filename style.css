@@ -180,6 +180,15 @@ footer .icon {
     border: 2px solid #E38008;
 }
 
+a:link{
+    text-decoration: none;
+    color: #202e0a;
+}
+a:visited{
+    text-decoration:none;
+    color: #202e0a;
+}
+
 @media only screen and (max-width: 1130px) {
     nav .search-bar {
         display:none;
