@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="swag.css">
+        <link rel="stylesheet" href="body-contact.css">
         <link rel="stylesheet" href="style.css">
         <title>Jumanji</title>
     </head>
@@ -38,44 +38,43 @@
         <main>
             <h2>Contacta con nosotros</h2>
             <form action="" method="">
-                <label for="fname">Name</label>
-                <input type="text" name="fname" required placeholder="Nombre">
-                <label for="email">Email</label>
-                <input type="email" name="email" required placeholder="Email">
-                <label for="message">Mensaje</label>
-                <textarea name="message" rows="4" cols="50" placeholder="Escribe tu consulta"></textarea>
-                <p>Nos pondremos en contacto contigo en un máximo de 24h</p>
-                <input type="submit" value="submit" type="submit">
+                <label for="fname">Nombre:</label>
+                <input type="text" name="fname" required placeholder="Nombre" class="text-input">
+                <label for="email">Email:</label>
+                <input type="email" name="email" required placeholder="Email" class="text-input">
+                <label for="message">Mensaje:</label>
+                <textarea name="message" rows="1" placeholder="Escribe tu consulta" maxlength="999" class="text-input"></textarea>
+                <p>*Nos pondremos en contacto contigo en un máximo de 24h.</p>
+                <a href="" class="orange-button" type="submit">
+                    <img src="images/Email Send.png" alt="" class="icon">
+                    <p>Enviar</p>
+                </a>
             </form>
         </main>
     </body>
     <footer>
-        <nav>
-            <p>Sobre Jumanji</p>
+        <li class="foot"><strong>Sobre Jumanji</strong>
             <a href="#">FAQ's</a>
             <a href="#">Quienes Somos?</a>
             <a href="#">Trabaja con nosotros</a>
-        </nav>
-        <nav>
-            <p>Soporte</p>
+        </li>
+        <li class="foot"><strong>Soporte</strong>
             <a href="#">Reglas de publicación</a>
             <a href="#">Consejos de seguridad</a>
             <a href="#">Contacto</a>
-        </nav>
-        <nav>
-            <p>Legal</p>
+        </li>
+        <li class="foot"><strong>Legal</strong>
             <a href="#">Condiciones de uso</a>
             <a href="#">Politicas de privacidad</a>
             <a href="#">Cookies</a>
-        </nav>
-        <nav>
-            <a><img src="images/whatsapp-logo-outline-481794752.png"></a>
-            <p>Contáctanos por WhatsApp</p>
-        </nav>
-        <nav>
-            <a href="#"><img src="/images/logo.png" alt="Jumanji logo"></a>
-            <a href="#"><img src="/images/googleplay.png" alt="Available on Google Play"></a>
-            <a href="#"><img src="/images/applestore.png" alt="Available on App Store"></a>
-        </nav>
+        </li>
+        <div>
+            <figure class="footer_images">
+                <a href="#"><img src="images/logo.png" alt="Logo_Jumanji"></a>
+                <a href="#"><img src="images/googleplay.png" alt="googleplay"></a>
+                <a href="#"><img src="images/applestore.png" alt="applestore"></a>
+            </figure>
+        </div>
+        
     </footer>
 </html>

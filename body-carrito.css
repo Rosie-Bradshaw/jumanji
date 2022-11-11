@@ -89,4 +89,4 @@ li {
 @media only screen and (max-width: 500px) {
     .cart-section>div:nth-child(2){
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-}
+}}
