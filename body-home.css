@@ -19,7 +19,19 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Verdana, Tahoma, sans-serif;
+  margin: 0 auto;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+#foldable{
+  margin-top: 20px;
+  display: none;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
   grid-gap: 20px;
   justify-content: center;
   align-items: center;
@@ -27,8 +39,6 @@
   margin: 0 auto;
   justify-items: center;
 }
-
-
 section {
   background-color: #fdf8f1;
   color: #202e0a;
@@ -111,6 +121,7 @@ main > section > div > a > div {
   .hero {
     min-height: 30vh;
   }
+
   /*.grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;*/
