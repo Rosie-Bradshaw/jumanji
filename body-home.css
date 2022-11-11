@@ -122,9 +122,6 @@ main > section > div > a > div {
     min-height: 30vh;
   }
 
-  /*.grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;*/
   }
 
 @media only screen and (max-width: 800px) {
@@ -132,6 +129,3 @@ main > section > div > a > div {
     min-height: 20vh;
   }
  }
-  /*.grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr%;
-    grid-template-rows: 1fr 1fr;
