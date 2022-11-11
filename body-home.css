@@ -99,6 +99,11 @@ a:visited{
   .hero {
     min-height: 30vh;
   }
+
+  .hero h1 {
+    font-size: 3em;
+    max-width: 60vw;
+  }
   /*.grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;*/
@@ -107,6 +112,9 @@ a:visited{
 @media only screen and (max-width: 800px) {
   .hero {
     min-height: 20vh;
+  }
+  .hero h1 {
+    font-size: 2em;
   }
  }
   /*.grid {

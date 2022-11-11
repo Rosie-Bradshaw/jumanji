@@ -12,6 +12,19 @@
     background-color: transparent;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+strong, h3 {
+    font-weight: bold;
+}
+
+a {
+    color: #202e0a;
+}
+
 nav {
     display: flex;
     flex-direction: space-between;
@@ -109,6 +122,11 @@ nav a {
 .dropdown-content a {
     display: block;
     padding-bottom: 1em;
+    transition: 200ms;
+}
+
+.dropdown-content a:hover {
+    font-weight: bold;
 }
 
 .dropdown-content h3 {
@@ -142,6 +160,15 @@ footer{
     flex-wrap:wrap;
     color: #202e0a;
     padding: 2em 2em 60px 2em;
+    margin-top: auto;
+}
+
+footer a {
+    transition: 200ms;
+}
+
+footer a:hover {
+    font-weight: bold;
 }
 
 .foot{
@@ -164,7 +191,7 @@ footer{
 .whatsapp {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: auto 0;
     justify-items: center;
 }
 
