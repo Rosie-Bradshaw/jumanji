@@ -45,9 +45,10 @@ nav .search-bar {
     display:flex;
 }
 
-nav .icon, .search-bar img {
+nav a, button, .search-bar img {
     margin-left: 2em;
 }
+
 input {
     padding:0;
     background-color: transparent;
@@ -153,6 +154,8 @@ footer .icon {
     gap: 1em;
 }
 
+    
+}
 .orange-button:hover {
     background-color: #E5AE08;
 }
@@ -177,6 +180,15 @@ footer .icon {
 
 .whatsapp-button:hover {
     border: 2px solid #E38008;
+}
+
+a:link{
+    text-decoration: none;
+    color: #202e0a;
+}
+a:visited{
+    text-decoration:none;
+    color: #202e0a;
 }
 
 @media only screen and (max-width: 1130px) {

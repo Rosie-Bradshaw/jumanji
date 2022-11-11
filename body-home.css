@@ -19,7 +19,19 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Verdana, Tahoma, sans-serif;
+  margin: 0 auto;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+#foldable{
+  margin-top: 20px;
+  display: none;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
   grid-gap: 20px;
   justify-content: center;
   align-items: center;
@@ -27,8 +39,6 @@
   margin: 0 auto;
   justify-items: center;
 }
-
-
 section {
   background-color: #fdf8f1;
   color: #202e0a;
@@ -45,8 +55,28 @@ span {
   display: flex;
   align-items: center;
 }
+li{list-style: none;}
 
-article {
+main > section > div > a li::before {
+  content: "\2022";
+  color: #e5ae08;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.green-button{
+    height: 52px;
+    width: 288px;
+    margin: 0 auto;
+    align-items: center;
+    color: #fdf8f1;
+}
+
+section > .green-button {
+    margin-top: 3em;
+}
+main > section > div > a {
   background-color: #202e0a0e;
   height: 331px;
   width: 276px;
@@ -55,53 +85,43 @@ article {
   position: relative;
 }
 
-article:hover {
-  height: 335px;
+main > section > div > a:hover {
+background-color: #F4CFA1;
 }
 
-article > li {
+main > section > div > a > li {
   margin-left: 30px;
   margin-top: 15px;
   font: weight 0, 5px;
   font-style: oblique;
 }
 
-article > div > h6 {
-  font-size: 18px;
+main > section > div > a > div > h6 {
+  font-size: 20px;
   font-weight: bold;
   padding: 10px;
   padding-left: 15px;
 }
 
-article > div > p {
+main > section > div > a > div > p {
   font-size: 22px;
   padding-left: 15px;
 }
 
-article > img {
+main > section > div > a > img {
   height: 197px;
   width: 276px;
   transform: translatey(15px);
 }
-article > div {
+main > section > div > a > div {
   transform: translatey(10px);
-}
-a:link{
-    text-decoration: none;
-    color: #202e0a;
-}
-a:visited{
-    text-decoration:none;
-    color: #202e0a;
 }
 
 @media only screen and (max-width: 1130px) {
   .hero {
     min-height: 30vh;
   }
-  /*.grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;*/
+
   }
 
 @media only screen and (max-width: 800px) {
@@ -109,6 +129,3 @@ a:visited{
     min-height: 20vh;
   }
  }
-  /*.grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr%;
-    grid-template-rows: 1fr 1fr;
