@@ -5,7 +5,7 @@ function seeMore() {
       y.innerHTML="Ver menos tematicas";
     } else {
       x.style.display = "none";
-      y.innerHTML="Ver más tematicas"
+      y.innerHTML="Ver más tematicas";
     }
  }
   
