@@ -89,7 +89,7 @@ main > section > div > a > li {
 main > section > div > a > div > h6 {
   font-size: 20px;
   font-weight: bold;
-  padding: 15px;
+  padding: 10px;
   padding-left: 15px;
 }
 
@@ -106,11 +106,6 @@ main > section > div > a > img {
 main > section > div > a > div {
   transform: translatey(10px);
 }
-a:link{
-    text-decoration: none;
-    color: #202e0a;
-}
-
 
 @media only screen and (max-width: 1130px) {
   .hero {
