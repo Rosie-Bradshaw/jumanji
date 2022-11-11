@@ -47,7 +47,7 @@ span {
 }
 li{list-style: none;}
 
-article li::before {
+main > section > div > a li::before {
   content: "\2022";
   color: #e5ae08;
   font-weight: bold;
@@ -66,7 +66,7 @@ article li::before {
 section > .green-button {
     margin-top: 3em;
 }
-article {
+main > section > div > a {
   background-color: #202e0a0e;
   height: 331px;
   width: 276px;
@@ -75,35 +75,35 @@ article {
   position: relative;
 }
 
-article:hover {
+main > section > div > a:hover {
 background-color: #F4CFA1;
 }
 
-article > li {
+main > section > div > a > li {
   margin-left: 30px;
   margin-top: 15px;
   font: weight 0, 5px;
   font-style: oblique;
 }
 
-article > div > h6 {
+main > section > div > a > div > h6 {
   font-size: 20px;
   font-weight: bold;
   padding: 15px;
   padding-left: 15px;
 }
 
-article > div > p {
+main > section > div > a > div > p {
   font-size: 22px;
   padding-left: 15px;
 }
 
-article > img {
+main > section > div > a > img {
   height: 197px;
   width: 276px;
   transform: translatey(15px);
 }
-article > div {
+main > section > div > a > div {
   transform: translatey(10px);
 }
 a:link{
