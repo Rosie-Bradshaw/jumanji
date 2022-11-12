@@ -26,9 +26,45 @@
                 <a href="">
                     <img src="images/User.png" alt="" class="icon"> 
                 </a>
-                <button href="" id="menu-dropdown">
-                    <img src="images/Menu Rounded.png" alt="" class="icon">
-                </button>
+                <div class="dropdown">
+                    <button href="" id="dropdown-button">
+                        <img src="images/Menu Rounded.png" alt="" class="icon">
+                    </button>
+                    <div class="dropdown-content">
+                      
+                        <a href="#">
+                            <div class="dropdown-icon-div">
+                                <img src="images/Chat.svg" alt="">
+                                <p>Tus chats</p>
+                            </div>
+                        </a>
+                    
+                        <a href="#">
+                            <div class="dropdown-icon-div">
+                                <img src="images/Bookmark.png" alt="">
+                                <p>Guardados</p>
+                            </div>
+                        </a>
+                    
+                        <a href="contact.html">
+                            <div class="dropdown-icon-div">
+                                <img src="images/WhatsApp (1).png" alt="">
+                                <p>Contáctanos</p>
+                            </div>
+                        </a>
+                    
+                        <h3>Temáticas populares</h3>
+                        <a href="#">Familiares</a>
+                        <a href="#">Cooperativo</a>
+                        <a href="#">Solitario</a>
+                        <a href="#">Estrategia</a>
+                        <a href="#">Para dos</a>
+                        <a href="#">Fiesta</a>
+                        <a href="#">Rápido</a>
+                        <a href="#">Infantil</a>
+                    </div>
+                  </div>
+                  
             </nav>
             <form action="" class="search-bar">
                 <img src="images/Search.png" alt="" class="icon">
@@ -44,6 +80,89 @@
             <section class="hero">
                 <h1>Compra y vende juegos de segunda mano</h1>
             </section>
+
+            <section class="destacado"> <!--CARD-->
+                <span><h2>Lo más destacado</h2><img src="images/Conflict.png" alt=""></span> 
+                <div class="grid">
+                    <a class="card1" href="productpage.html">
+                            <li> Estrategia</li>
+                            <img src="images/foto juego.png" alt="photo of people playing a board game">
+                        <div>
+                                <h6>30€</h6>
+                                <p>Monopoly</p>
+                        </div>
+                    </a>
+    
+                    <a class="card2" href="productpage.html">
+                                <li>Estrategia</li>
+                                <img src="images/foto juego.png" alt="photo of people playing a board game">
+                        <div>
+                        <h6>30€</h6>
+                        <p>Monopoly</p>
+                        </div>
+                    </a>
+    
+                    <a class="card3" href="productpage.html">
+                            <li>Estrategia</li>
+                            <img src="images/foto juego.png" alt="photo of people playing a board game">
+                        <div>
+                            <h6>30€</h6>
+                            <p>Monopoly</p>
+                        </div>
+                    </a>
+                    <a class="card4" href="productpage.html">
+                        <li>Estrategia</li>
+                        <img src="images/foto juego.png" alt="photo of people playing a board game">
+                        <div>
+                            <h6>30€</h6>
+                            <p>Monopoly</p>
+                        </div>
+                    </a>
+                </div>
+                    <!--Cards 2-->
+                    <div id="foldable2">
+                     <a href="productpage.html">
+                                <li>Estrategia</li>
+                                <img src="images/foto juego.png" alt="monopoly">
+                            <div>
+                                    <h6>30€</h6>
+                                    <p>Monopoly</p>
+                            </div>
+                        </a>
+        
+                        <a href="productpage.html">
+                                    <li>Estrategia</li>
+                                    <img src="images/foto juego.png" alt="monopoly">
+                            <div>
+                            <h6>30€</h6>
+                            <p>Monopoly</p>
+                            </div>
+                        </a>
+        
+                        <a href="productpage.html">
+                                <li>Estrategia</li>
+                                <img src="images/foto juego.png" alt="monopoly">
+                            <div>
+                                <h6>30€</h6>
+                                <p>Monopoly</p>
+                            </div>
+                        </a>
+                        <a href="productpage.html">
+                            <li>Estrategia</li>
+                            <img src="images/foto juego.png" alt="monopoly">
+                            <div>
+                                <h6>30€</h6>
+                                <p>Monopoly</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>   
+                <button id="buttonseemore2" onclick="seeMore2()" class="green-button">
+                    Ver más juegos</button>
+            </section>
+
             <section> <!--CARD-->
                 <span><h2>Buscar por temática</h2><img src="images/tematica-icono.png" alt=""></span> 
                 <div class="grid">
@@ -81,46 +200,49 @@
                             <p>Monopoly</p>
                         </div>
                     </a>
-                     
-                </div>   
-                <div class="grid" id="foldable">
-                    <a class="card1" href="productpage.html">
-                            <li> Estrategia</li>
-                            <img src="images/foto juego.png" alt="photo of people playing a board game">
-                        <div>
+                </div>
+                    <!--Cards 2-->
+                    <div id="foldable">
+                     <a href="productpage.html">
+                                <li>Estrategia</li>
+                                <img src="images/foto juego.png" alt="monopoly">
+                            <div>
+                                    <h6>30€</h6>
+                                    <p>Monopoly</p>
+                            </div>
+                        </a>
+        
+                        <a href="productpage.html">
+                                    <li>Estrategia</li>
+                                    <img src="images/foto juego.png" alt="monopoly">
+                            <div>
+                            <h6>30€</h6>
+                            <p>Monopoly</p>
+                            </div>
+                        </a>
+        
+                        <a href="productpage.html">
+                                <li>Estrategia</li>
+                                <img src="images/foto juego.png" alt="monopoly">
+                            <div>
                                 <h6>30€</h6>
                                 <p>Monopoly</p>
-                        </div>
-                    </a>
-    
-                    <a class="card2" href="productpage.html">
-                                <li>Estrategia</li>
-                                <img src="images/foto juego.png" alt="photo of people playing a board game">
-                        <div>
-                        <h6>30€</h6>
-                        <p>Monopoly</p>
-                        </div>
-                    </a>
-    
-                    <a class="card3" href="productpage.html">
+                            </div>
+                        </a>
+                        <a href="productpage.html">
                             <li>Estrategia</li>
-                            <img src="images/foto juego.png" alt="photo of people playing a board game">
-                        <div>
-                            <h6>30€</h6>
-                            <p>Monopoly</p>
-                        </div>
-                    </a>
-                    <a class="card4" href="productpage.html">
-                        <li>Estrategia</li>
-                        <img src="images/foto juego.png" alt="photo of people playing a board game">
-                        <div>
-                            <h6>30€</h6>
-                            <p>Monopoly</p>
-                        </div>
-                    </a>
-                     
-                </div>   
-                <button id="buttonseemore" onclick="seeMore()" class="green-button">Ver más temáticas</button>
+                            <img src="images/foto juego.png" alt="monopoly">
+                            <div>
+                                <h6>30€</h6>
+                                <p>Monopoly</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>   
+                <button id="buttonseemore" onclick="seeMore()" class="green-button">
+                    Ver más temáticas</button>
             </section>
         </main>
         

@@ -8,46 +8,83 @@
         <link rel="stylesheet" href="style.css">
         <title>Jumanji</title>
     </head>
-    <header>
-        <nav>
-            <a href="index.html"><img src="images/logo.png" alt="jumanji-logo" class="logo"></a>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt="jumanji-logo" class="logo"></a>
+                <form action="" class="search-bar">
+                    <img src="images/Search.png" alt="" class="icon">
+                    <input type="text" placeholder="¿Qué juego buscas?">
+                </form>
+                <a href="" class="green-button">
+                    <p>Vende un juego</p>
+                    <img src="images/Plus.png" alt="" class="icon">
+                </a>
+                <a href="">
+                    <img src="images/Shopping Cart.png" alt="" class="icon">
+                </a>
+                <a href="">
+                    <img src="images/User.png" alt="" class="icon"> 
+                </a>
+                <div class="dropdown">
+                    <button href="" id="dropdown-button">
+                        <img src="images/Menu Rounded.png" alt="" class="icon">
+                    </button>
+                    <div class="dropdown-content">
+                      
+                        <a href="#">
+                            <div class="dropdown-icon-div">
+                                <img src="images/Chat.svg" alt="">
+                                <p>Tus chats</p>
+                            </div>
+                        </a>
+                    
+                        <a href="#">
+                            <div class="dropdown-icon-div">
+                                <img src="images/Bookmark.png" alt="">
+                                <p>Guardados</p>
+                            </div>
+                        </a>
+                    
+                        <a href="contact.html">
+                            <div class="dropdown-icon-div">
+                                <img src="images/WhatsApp (1).png" alt="">
+                                <p>Contáctanos</p>
+                            </div>
+                        </a>
+                    
+                        <h3>Temáticas populares</h3>
+                        <a href="#">Familiares</a>
+                        <a href="#">Cooperativo</a>
+                        <a href="#">Solitario</a>
+                        <a href="#">Estrategia</a>
+                        <a href="#">Para dos</a>
+                        <a href="#">Fiesta</a>
+                        <a href="#">Rápido</a>
+                        <a href="#">Infantil</a>
+                    </div>
+                  </div>
+                  
+            </nav>
             <form action="" class="search-bar">
                 <img src="images/Search.png" alt="" class="icon">
                 <input type="text" placeholder="¿Qué juego buscas?">
             </form>
-            <a href="" class="green-button">
-                <p>Vende un juego</p>
-                <img src="images/Plus.png" alt="" class="icon">
-            </a>
-            <a href="carrito.html">
-                <img src="images/Shopping Cart.png" alt="" class="icon">
-            </a>
-            <a href="">
-                <img src="images/User.png" alt="" class="icon"> 
-            </a>
-            <button href="" id="menu-dropdown">
-                <img src="images/Menu Rounded.png" alt="" class="icon">
-            </button>
-        </nav>
-        <form action="" class="search-bar">
-            <img src="images/Search.png" alt="" class="icon">
-            <input type="text" placeholder="¿Qué juego buscas?">
-        </form>
-        <section class="bottom-bar">
-            <a href=""><img src="images/Bookmark.png" alt="" class="icon"></a>
-            <a href=""><img src="images/Plus_green.png" alt="" class="icon"></a>
-            <a href=""><img src="images/User.png" alt="" class="icon"></a>
-        </section>
-    </header>
-    <body>
+            <section class="bottom-bar">
+                <a href=""><img src="images/Bookmark.png" alt="" class="icon"></a>
+                <a href=""><img src="images/Plus_green.png" alt="" class="icon"></a>
+                <a href=""><img src="images/User.png" alt="" class="icon"></a>
+            </section>
+        </header>
         <main>
             <h2>Contacta con nosotros</h2>
             <form action="" method="">
-                <label for="fname">Nombre:</label>
+                <label for="fname"></label>
                 <input type="text" name="fname" required placeholder="Nombre" class="text-input">
-                <label for="email">Email:</label>
+                <label for="email"></label>
                 <input type="email" name="email" required placeholder="Email" class="text-input">
-                <label for="message">Mensaje:</label>
+                <label for="message"></label>
                 <textarea name="message" rows="1" placeholder="Escribe tu consulta" maxlength="999" class="text-input"></textarea>
                 <p>*Nos pondremos en contacto contigo en un máximo de 24h.</p>
                 <a href="" class="orange-button" type="submit">
@@ -56,38 +93,39 @@
                 </a>
             </form>
         </main>
+        <footer>
+            
+            <li class="foot"><strong>Sobre Jumanji</strong>
+                <a href="#">FAQ's</a>
+                <a href="#">Quienes Somos?</a>
+                <a href="#">Trabaja con nosotros</a>
+            </li>
+            <li class="foot"><strong>Soporte</strong>
+                <a href="#">Reglas de publicación</a>
+                <a href="#">Consejos de seguridad</a>
+                <a href="#">Contacto</a>
+            </li>
+            <li class="foot"><strong>Legal</strong>
+                <a href="#">Condiciones de uso</a>
+                <a href="#">Politicas de privacidad</a>
+                <a href="#">Cookies</a>
+            </li>
+            <div class="whatsapp">
+                <a href="https://api.whatsapp.com/send/?phone=%2B34671366995&text=Hola%21+necesito+ayuda+%3A%28&type=phone_number&app_absent=0" class="whatsapp-button">
+                    <img src="images/WhatsApp (1).png" alt="" class="icon">
+                    <p>Contáctanos por Whatsapp</p>
+                </a>
+                
+            </div>
+            <div>
+                <figure class="footer-images">
+                    <a href="#"><img src="images/logo.png" alt="Logo_Jumanji"></a>
+                    <a href="#"><img src="images/googleplay.png" alt="googleplay" class="footer-image"></a>
+                    <a href="#"><img src="images/applestore.png" alt="applestore" class="footer-image"></a>
+                </figure>
+            </div>
+            
+        </footer>
     </body>
-    <footer>
-            
-        <li class="foot"><strong>Sobre Jumanji</strong>
-            <a href="#">FAQ's</a>
-            <a href="#">Quienes Somos?</a>
-            <a href="#">Trabaja con nosotros</a>
-        </li>
-        <li class="foot"><strong>Soporte</strong>
-            <a href="#">Reglas de publicación</a>
-            <a href="#">Consejos de seguridad</a>
-            <a href="contact.html">Contacto</a>
-        </li>
-        <li class="foot"><strong>Legal</strong>
-            <a href="#">Condiciones de uso</a>
-            <a href="#">Politicas de privacidad</a>
-            <a href="#">Cookies</a>
-        </li>
-        <div class="whatsapp">
-            <a href="https://api.whatsapp.com/send/?phone=%2B34671366995&text=Hola%21+necesito+ayuda+%3A%28&type=phone_number&app_absent=0" class="whatsapp-button">
-                <img src="images/WhatsApp (1).png" alt="" class="icon">
-                <p>Contáctanos por Whatsapp</p>
-            </a>
-            
-        </div>
-        <div>
-            <figure class="footer-images">
-                <a href="index.html"><img src="images/logo.png" alt="Logo_Jumanji"></a>
-                <a href="#"><img src="images/googleplay.png" alt="googleplay" class="footer-image"></a>
-                <a href="#"><img src="images/applestore.png" alt="applestore" class="footer-image"></a>
-            </figure>
-        </div>
-        
-    </footer>
+
 </html>
