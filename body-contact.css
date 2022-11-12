@@ -65,6 +65,7 @@ main input, textarea{
     margin: 1em 0;
     gap: 2em;
     min-width: 100%;
+    resize: none; /*  */
     /* min-width: 39vw; */
     /* max-width: 39vw; */
 }
@@ -110,6 +111,3 @@ main a[type="submit"]{
         min-width: 80vw;
     }
 }
-    
-}
-

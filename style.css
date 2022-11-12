@@ -57,7 +57,7 @@ nav .search-bar {
     display:flex;
 }
 
-nav a, button, .search-bar img {
+nav a, button, .search-bar img, header > nav > a > .icon {
     margin-left: 2em;
 }
 
@@ -226,8 +226,6 @@ footer .icon {
     gap: 1em;
 }
 
-    
-}
 .orange-button:hover {
     background-color: #E5AE08;
 }
